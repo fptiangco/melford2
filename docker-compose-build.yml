@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  api:
+    container_name: api
+    build:
+      context: ./melford2-api
+      dockerfile: Dockerfile.build
+    working_dir: /workspace
+    ports:
+      - "5000:5000"
