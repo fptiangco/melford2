@@ -1,0 +1,16 @@
+{
+  "name": "Terraform Dev Container",
+  "dockerComposeFile": "../../docker-compose-dev.yml",
+  "service": "iac",
+  "workspaceFolder": "/workspace",
+  "shutdownAction": "none",
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "hashicorp.terraform",
+        "shd101wyy.markdown-preview-enhanced"
+      ]
+    }
+  }
+}

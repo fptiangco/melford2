@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  api:
+    container_name: api
+    build:
+      context: ./melford2-api
+      dockerfile: Dockerfile.dev
+    volumes:
+      - ./melford2-api:/workspace
+    working_dir: /workspace
+    ports:
+      - "5000:5000"
+
+  iac:
+    container_name: iac
+    build:
+      context: ./melford2-iac
+      dockerfile: Dockerfile.dev
+    volumes:
+      - ./melford2-iac:/workspace
+    working_dir: /workspace
