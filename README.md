@@ -8,7 +8,7 @@
 
 # Overview 
 ## Folder structure
-* The stack is made up of 3 repos, this first repo (melford2) serves as a parent directory for the 2 other repos: the terraform (melford2-iac) and flask app (melford2-api) repos.
+* The stack is made up of 3 repos, this first repo (melford2) serves as a parent directory for the 2 other repos: the terraform ([melford2-iac](https://github.com/fptiangco/melford2-iac)) and flask app ([melford2-api](https://github.com/fptiangco/melford2-api)) repos.
 * Separating the terraform (melford2-iac) and app (melford2-api) repos mimics an environment where different teams work in their specific areas. The top-level repo (melford2) aids team members who work on both areas at the same time, while still maintaining repo separation.
 * Run `setup.sh` to clone the 2 repos here
 
