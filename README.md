@@ -1,10 +1,10 @@
 # Requirements
-[x] Use terraform to create an ECS cluster (one task definition, 2 tasks)
-[x] Dockerize the hello world flask app
-[x] Deploy the hello world flask app in the cluster
-[x] Create a CI/CD of the hello world flask app such that: 
-  [x] On PR, test the app, and not allow a merge if it fails
-  [x] On Merge, the app should re-deploy
+- [x] Use terraform to create an ECS cluster (one task definition, 2 tasks)
+- [x] Dockerize the hello world flask app
+- [x] Deploy the hello world flask app in the cluster
+- [x] Create a CI/CD of the hello world flask app such that: 
+  - [x] On PR, test the app, and not allow a merge if it fails
+  - [x] On Merge, the app should re-deploy
 
 # Overview 
 ## First step
