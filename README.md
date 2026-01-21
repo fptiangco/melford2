@@ -25,7 +25,7 @@
 
 ### 2. Via docker compose
 #### Just Run the App
-* not for development, directories are not mounted, this just runs flask app
+* not for development, directories are not mounted, this just runs the flask app
 ```
 docker compose -f docker-compose-build.yml build
 docker compose -f docker-compose-build.yml up
