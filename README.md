@@ -21,6 +21,7 @@
 ### 1. Via devcontainers
 * Via vscode and the devcontainer extension
 * Choose `Dev Containers: Rebuild and Reopen in Container` and choose either the `API Dev Container` or the `Terraform  Dev Container`
+* Features made available - preset extensions, debug mode, standard IDE
 
 
 ### 2. Via docker compose
@@ -38,7 +39,7 @@ docker compose -f docker-compose-build.yml up
 docker compose -f docker-compose-dev.yml build
 docker compose -f docker-compose-dev.yml up
 ```
-* then exec into container to create the venv and run the app manually
+* then `docker exec` into container to create the venv and run the app manually
 
 
 
