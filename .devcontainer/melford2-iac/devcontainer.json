@@ -10,7 +10,10 @@
       "extensions": [
         "hashicorp.terraform",
         "shd101wyy.markdown-preview-enhanced"
-      ]
+      ],
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash"
+      }
     }
   }
 }
